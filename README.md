@@ -17,3 +17,5 @@ Well, I wrote this in two hours during exam revision. Feel free to open a pull r
 ### Halp! It doesn't work.
 Check the dependencies. This thing works on dual monitors as well (checked). If it's still buggy, open an issue. I check them.. occasionally.
 
+## Screenshot
+![Screenshot](figures/screenshot.png)
