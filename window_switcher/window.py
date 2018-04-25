@@ -13,7 +13,7 @@ class Window:
         if self.resized:
             return
         
-        self.root.geometry(f'{self.width}x{self.height + items * Window.ITEM_HEIGHT}')
+        self.root.geometry('{0}x{1}'.format(self.width, self.height + items * Window.ITEM_HEIGHT))
         self.resized = True
 
     def __init__(self, root, width, height):

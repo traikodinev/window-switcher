@@ -21,6 +21,6 @@ h = 40
 
 root = Tk()
 window = Window(root, w, h)
-print(f'Time to start {timeit.default_timer() - start:.3f}')
+print('Time to start {0:.3f}'.format(timeit.default_timer() - start))
 
 root.mainloop()
